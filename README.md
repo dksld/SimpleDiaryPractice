@@ -2,6 +2,7 @@
 2. 앱 소개: 안드로이드 스튜디오 UI 기초를 학습한 것을 바탕으로 간단한 다이어리 앱을 구현해 보았습니다.
 
 3. 기능
+- 샘플 데이터 5개 제공
 - 다이어리 항목 추가
 - 기존 항목 수정
 - 기존 항목 삭제
@@ -16,3 +17,5 @@
 5. 개선점
 - 검색 기능 개선: 특정 키워드가 다이어리 내용에 포함된 데이터도 찾아낼 수 있도록 개선, 검색 결과로 나오는 데이터들도 RecyclerView로 제시하도록 개선
 - DB 개선: SQLite 대신 ROOM DB 사용해보기
+
+<img width="380" height="775" alt="Diary Main" src="https://github.com/user-attachments/assets/d9d63fcc-6954-4955-9245-6f8a1adaebb2" />
