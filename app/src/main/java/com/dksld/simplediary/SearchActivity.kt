@@ -8,8 +8,8 @@ import androidx.core.view.WindowInsetsCompat
 import com.dksld.simplediary.data.DiaryDao
 import com.dksld.simplediary.databinding.ActivitySearchBinding
 
-class searchActivity : AppCompatActivity() {
-    val TAG = "searchActivityTag"
+class SearchActivity : AppCompatActivity() {
+    val TAG = "SearchActivityTag"
     lateinit var searchBinding: ActivitySearchBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

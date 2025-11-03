@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Simple_Diary"
         tools:targetApi="31">
         <activity
-            android:name=".searchActivity"
+            android:name=".SearchActivity"
             android:exported="false" />
         <activity
             android:name=".AddActivity"

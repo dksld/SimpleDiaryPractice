@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
             val intent: Intent = Intent(this, AddActivity::class.java)
             startActivityForResult(intent, ADDACTIVITY_CODE)
         }else if(item.itemId == R.id.searchItem){   // 메뉴에서 다이어리 검색 클릭시 SearchActivity 띄우기
-            val intent: Intent = Intent(this, searchActivity::class.java)
+            val intent: Intent = Intent(this, SearchActivity::class.java)
             startActivity(intent)
         }else if(item.itemId == R.id.introduceItem){    // 메뉴에서 앱 소개 클릭시 dialog 띄우기
             val builder = AlertDialog.Builder(this).apply{
